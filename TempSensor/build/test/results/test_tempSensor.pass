@@ -1,0 +1,19 @@
+---
+:source:
+  :path: test
+  :file: test_tempSensor.c
+:successes:
+- :test: test_whenTempRegisterReadsMaxValue_thenTheTempIsTheMaxValue
+  :line: 48
+  :message: ''
+- :test: test_whenTempRegisterReadsMinValue_thenTheTempIsTheMinValue
+  :line: 64
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 2
+  :passed: 2
+  :failed: 0
+  :ignored: 0
+:stdout: []

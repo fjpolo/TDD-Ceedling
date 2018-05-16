@@ -1,0 +1,34 @@
+---
+:source:
+  :path: test
+  :file: test_fuzzbuzz.c
+:successes:
+- :test: test_if_3_then_green
+  :line: 46
+  :message: ''
+- :test: test_if_6_then_green
+  :line: 53
+  :message: ''
+- :test: test_if_5_then_red
+  :line: 60
+  :message: ''
+- :test: test_if_10_then_red
+  :line: 67
+  :message: ''
+- :test: test_if_15_then_blue
+  :line: 74
+  :message: ''
+- :test: test_if_300_then_blue
+  :line: 81
+  :message: ''
+- :test: test_if_2_then_no_color
+  :line: 88
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 7
+  :passed: 7
+  :failed: 0
+  :ignored: 0
+:stdout: []
