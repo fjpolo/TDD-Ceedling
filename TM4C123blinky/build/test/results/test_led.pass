@@ -1,0 +1,19 @@
+---
+:source:
+  :path: test
+  :file: test_led.c
+:successes:
+- :test: test_when_the_led_is_turned_on_then_port_f_pin_2_is_set
+  :line: 54
+  :message: ''
+- :test: test_when_the_led_is_turned_off_then_port_f_pin_2_is_set_to_zero
+  :line: 66
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 2
+  :passed: 2
+  :failed: 0
+  :ignored: 0
+:stdout: []
