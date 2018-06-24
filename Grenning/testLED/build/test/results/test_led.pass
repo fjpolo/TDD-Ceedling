@@ -1,0 +1,49 @@
+---
+:source:
+  :path: test
+  :file: test_led.c
+:successes:
+- :test: test_leds_off_after_create
+  :line: 55
+  :message: ''
+- :test: test_turn_on_led_one
+  :line: 63
+  :message: ''
+- :test: test_turn_off_led_one
+  :line: 71
+  :message: ''
+- :test: test_turn_on_multiple_leds
+  :line: 80
+  :message: ''
+- :test: test_turn_on_all_leds
+  :line: 87
+  :message: ''
+- :test: test_turn_off_any_led
+  :line: 93
+  :message: ''
+- :test: test_led_memory_is_not_readable
+  :line: 100
+  :message: ''
+- :test: test_upper_and_lower_bounds
+  :line: 107
+  :message: ''
+- :test: test_out_of_bounds_turn_on_does_no_harm
+  :line: 114
+  :message: ''
+- :test: test_out_of_bounds_turn_off_does_no_harm
+  :line: 124
+  :message: ''
+- :test: test_out_of_bounds_produce_runtime_error
+  :line: 135
+  :message: ''
+:failures: []
+:ignores:
+- :test: test_out_of_bounds_to_do
+  :line: 146
+  :message: Implement me!
+:counts:
+  :total: 12
+  :passed: 11
+  :failed: 0
+  :ignored: 1
+:stdout: []

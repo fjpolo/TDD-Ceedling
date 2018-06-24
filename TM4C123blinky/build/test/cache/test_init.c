@@ -50,7 +50,13 @@ void tearDown(void)
 
 }
 
-void test_dumb(void){
+void test_when_init_gpio_output(void){
+
+
+
+
+
+
 
 
 

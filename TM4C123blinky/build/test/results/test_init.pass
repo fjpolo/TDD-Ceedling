@@ -3,7 +3,7 @@
   :path: test
   :file: test_init.c
 :successes:
-- :test: test_dumb
+- :test: test_when_init_gpio_output
   :line: 73
   :message: ''
 :failures: []

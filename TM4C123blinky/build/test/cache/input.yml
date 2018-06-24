@@ -72,10 +72,10 @@
   :testfail: ".fail"
   :dependencies: ".d"
 :unity:
-  :vendor_path: C:/Users/franc/Downloads/blinky/vendor/ceedling/vendor
+  :vendor_path: C:/Users/franc/Downloads/TDD/TM4C123blinky/vendor/ceedling/vendor
   :defines: []
 :cmock:
-  :vendor_path: C:/Users/franc/Downloads/blinky/vendor/ceedling/vendor
+  :vendor_path: C:/Users/franc/Downloads/TDD/TM4C123blinky/vendor/ceedling/vendor
   :defines: []
   :includes:
   - "<stdbool.h>"
@@ -97,7 +97,7 @@
   :verbosity: 3
   :unity_helper: false
 :cexception:
-  :vendor_path: C:/Users/franc/Downloads/blinky/vendor/ceedling/vendor
+  :vendor_path: C:/Users/franc/Downloads/TDD/TM4C123blinky/vendor/ceedling/vendor
   :defines: []
 :test_runner:
   :includes: []

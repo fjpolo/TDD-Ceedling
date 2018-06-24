@@ -73,8 +73,8 @@ void resetTest(void)
 int main(void)
 {
   UnityBegin("test_led.c");
-  RUN_TEST(test_when_the_led_is_turned_on_then_port_f_pin_2_is_set, 54);
-  RUN_TEST(test_when_the_led_is_turned_off_then_port_f_pin_2_is_set_to_zero, 66);
+  RUN_TEST(test_when_the_led_is_turned_on_then_port_f_pin_2_is_set, 55);
+  RUN_TEST(test_when_the_led_is_turned_off_then_port_f_pin_2_is_set_to_zero, 67);
 
   CMock_Guts_MemFreeFinal();
   return (UnityEnd());
